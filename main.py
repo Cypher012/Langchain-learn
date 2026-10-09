@@ -20,7 +20,7 @@ def get_llm(provider: Literal["openai", "ollama"]):
             model="gpt-6-luna", api_key=SecretStr(settings.OPENAI_API_KEY)
         )
     elif provider == "ollama":
-        return ChatOllama(model="qwen3.5:2b", num_ctx=8192, num_predict=256)
+        return ChatOllama(model="qwen3.5:0.8b", num_ctx=8192, num_predict=256)
     else:
         raise ValueError(f"Unsupported provider: {provider}")
 
@@ -33,7 +33,13 @@ agent = create_agent(llm, tools)
 def main():
     print("Hello from langchain-course!")
     result = agent.invoke(
-        {"messages": [HumanMessage(content="What is the weather in Tokyo?")]}
+        {
+            "messages": [
+                HumanMessage(
+                    content="What are client most type of jobs on Agentic AI on upwork"
+                )
+            ]
+        }
     )
     print(result)
 
