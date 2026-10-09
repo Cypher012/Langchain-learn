@@ -17,7 +17,7 @@ from config import settings
 def get_llm(provider: Literal["openai", "ollama"]):
     if provider == "openai":
         return ChatOpenAI(
-            model="gpt-5-nano", api_key=SecretStr(settings.OPENAI_API_KEY)
+            model="gpt-6-luna", api_key=SecretStr(settings.OPENAI_API_KEY)
         )
     elif provider == "ollama":
         return ChatOllama(model="qwen3.5:2b", num_ctx=8192, num_predict=256)
@@ -25,7 +25,7 @@ def get_llm(provider: Literal["openai", "ollama"]):
         raise ValueError(f"Unsupported provider: {provider}")
 
 
-llm = get_llm("ollama")
+llm = get_llm("openai")
 tools = [TavilySearch(max_results=3)]
 agent = create_agent(llm, tools)
 
