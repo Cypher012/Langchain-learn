@@ -1,0 +1,39 @@
+INTERNAL NOTES: THE KOROBA HARBOR PROJECT
+
+The Koroba Harbor Project is a fictional internal initiative started by the Nwosu-Tanaka Cooperative. The cooperative was founded on 14 March 2019 in a rented garage in the town of Ibeku-Marsh by two people: Temitope Adewuyi-Blum and Garrick Oyelaran.
+
+PEOPLE
+
+The project lead is Temitope Adewuyi-Blum. Her favorite snack at work is roasted plantain chips dusted with smoked paprika. She keeps a three-legged tortoise named Pemberton in the office.
+
+The treasurer is Garrick Oyelaran. He refuses to use any spreadsheet software and keeps all accounts in a green notebook with a broken spine. The notebook is stored in a biscuit tin labeled "Do Not Open Before Noon".
+
+The newest hire is Sunniva Achterberg, who joined on 3 February 2024. Her employee ID is KH-4471. She is the only person allowed to restart the server called "Gooseberry".
+
+THE OFFICE
+
+The office is on the fourth floor of a building with a broken elevator. The wifi password is "mangrove-tuesday-88". The coffee machine is named Beatrice. Beatrice only works if you hit the left side twice and say "please" out loud.
+
+The meeting room is called the Lantern Room. It has exactly 11 chairs, one of which is red. Nobody is allowed to sit in the red chair except the person presenting.
+
+TECHNICAL DETAILS
+
+The main database is named "Quillfeather" and runs on port 5873. The backup job runs every night at 02:17 and writes to a folder called /vault/nightjar. The staging server is called "Gooseberry" and the production server is called "Marmalade".
+
+The internal API key prefix is "kh_sk_" and the project mascot is a purple heron named Dobbin. The company slogan is "Slowly, but with receipts."
+
+RULES AND TRADITIONS
+
+Every Friday at 3:42 PM the team holds a ritual called "The Reckoning", where each person must confess one bug they introduced that week. The person with the worst confession wins a rubber duck wearing a tiny crown.
+
+The cooperative bans the word "synergy". Anyone who says it must put 200 naira into a jar shaped like a pineapple.
+
+The yearly retreat is held in a village called Ostrava-by-the-Sea. The 2023 retreat was cancelled because of a goat that wandered onto the bus.
+
+BUDGET FIGURES
+
+The 2024 project budget was 4,812,350 naira. Of this, 612,000 naira was spent on a single industrial label printer that was never used. It is now kept in a closet and referred to as "the Regret".
+
+FINAL NOTE
+
+If anyone asks who really owns the Koroba Harbor Project, the official answer is "the tortoise".
